@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - El Código del Arte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-logo">El Código del Arte</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galleries.html">Galerías</a></li>
+                <li><a href="artwork.html">Obra Destacada</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-container">
+            <h1>Contáctenos</h1>
+            <p>Envíenos un mensaje o suscríbase a nuestro boletín para no perderse ninguna exhibición.</p>
+
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" class="form-input" required>
+                    <label for="name" class="form-label">Nombre Completo</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" class="form-input" required>
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" class="form-input" rows="5" required></textarea>
+                    <label for="message" class="form-label">Mensaje</label>
+                </div>
+
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
