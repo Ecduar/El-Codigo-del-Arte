@@ -281,3 +281,87 @@ a {
     text-align: justify;
 }
 /*Diseñado por Jose Manuel Montilla*/
+
+
+/* PÁGINA 4: formulario de contacto                 */
+
+.contact-container {
+    padding: 4rem 5%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-container p {
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: var(--text-color);
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background: transparent;
+}
+
+.form-label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 1rem;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+/* Efecto de Etiqueta Flotante */
+.form-input:focus ~ .form-label,
+.form-input:valid ~ .form-label {
+    top: -20px;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+}
+
+.form-input:focus {
+    border-bottom-color: var(--accent-color);
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--accent-dark-color);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/*Diseñado por Jose Manuel Montilla*/
